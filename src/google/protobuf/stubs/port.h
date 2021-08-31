@@ -62,7 +62,7 @@
 #elif defined(__FreeBSD__)
 #include <sys/endian.h>  // __BYTE_ORDER
 #else
-#if !defined(__QNX__)
+#if !defined(__QNX__) && !defined(__MVS__)
 #include <endian.h>  // __BYTE_ORDER
 #endif
 #endif
