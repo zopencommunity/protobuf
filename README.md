@@ -1,4 +1,4 @@
-Protocol Buffers - Google's data interchange format
+Protocol Buffers - Google's data interchange format with IBM zOS support
 ===================================================
 
 Copyright 2008 Google Inc.
