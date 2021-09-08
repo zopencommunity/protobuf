@@ -5,7 +5,17 @@ Copyright 2008 Google Inc.
 
 https://developers.google.com/protocol-buffers/
 
-C++ Installation - Unix
+C++ Installation - IBM zOS
+-----------------------
+To build protobuf from source, no additional tools is needed on zOS, build is only relied on make. Just download the latest source with zOS support and do the following:
+
+     cd zosbuild
+     make
+     make install
+  
+make first tries to build zlib which is a dependency of protobuf.
+
+C++ Installation - Unix (Except zOS)
 -----------------------
 
 To build protobuf from source, the following tools are needed:
@@ -179,6 +189,10 @@ Compile using the IBM xlC C++ compiler as follows:
     ./configure CXX=xlC
 
 Also, you will need to use GNU `make` (`gmake`) instead of AIX `make`.
+
+**Note for zOS users**
+
+please use only the zOS specific section since cmake and configure are not fully available on zOS.
 
 C++ Installation - Windows
 --------------------------
