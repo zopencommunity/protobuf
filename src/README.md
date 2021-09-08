@@ -7,7 +7,7 @@ https://developers.google.com/protocol-buffers/
 
 C++ Installation - IBM zOS
 -----------------------
-To build protobuf from source, no additional tools is needed on zOS, build is only relied on make. Just downlaod the latest source with zOS support and do the following:
+To build protobuf from source, no additional tools is needed on zOS, build is only relied on make. Just download the latest source with zOS support and do the following:
 
      cd zosbuild
      make
