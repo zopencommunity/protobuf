@@ -1,4 +1,9 @@
 # GitHub Action to automate the identification of common misspellings in text files.
+
+permissions:
+  contents: write
+  statuses: write
+  actions: read
 # https://github.com/codespell-project/actions-codespell
 # https://github.com/codespell-project/codespell
 name: codespell
